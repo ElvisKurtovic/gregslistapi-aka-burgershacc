@@ -43,10 +43,10 @@ namespace gregslistapi.Repositories
             string sql = @"
             UPDATE fries
             SET
-            name = @Name
-            description = @Description
+            name = @Name,
+            description = @Description,
             price = @Price
-            WHERE id = @Id
+            WHERE id = @Id;
             SELECT * FROM fries WHERE id = @Id;";
             return _db.QueryFirstOrDefault<Fries>(sql, editedFries);
         }
