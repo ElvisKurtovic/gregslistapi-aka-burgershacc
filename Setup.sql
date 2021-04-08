@@ -1,4 +1,4 @@
-USE burgershacc;
+-- USE burgershacc;
 
 -- NOTE this is creating the table to put burgers in
 

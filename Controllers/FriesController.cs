@@ -46,7 +46,7 @@ namespace gregslistapi.Controllers
             }
         }
 
-        [HttpPost] // POST
+        [HttpPost]
         public ActionResult<Fries> Create([FromBody] Fries newFries)
         {
             try
